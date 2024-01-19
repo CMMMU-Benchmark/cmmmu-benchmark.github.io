@@ -851,11 +851,10 @@
     <h2 class="title is-3">Different Question Type</h2>
     <div class="content has-text-justified">
       <p>
-        We compare the performance of various models across top frequent image types. 
-        Across all types, GPT-4V consistently outperforms the other models by a huge margin. 
-        Open-source models demonstrate relatively strong performance in categories like Photos and Paintings, which are more frequently seen during training. 
-        However, for less common image categories like Geometric shapes, Music sheets and Chemical structures, all models obtain very low scores (some are close to random guesses). 
-        This indicates that the existing models are generalizing poorly towards these image types.
+        We conduct result decomposition across question types, as shown in table below.
+        We notice that Qwen-VL-Plus does not well on True or False questions, indicating that Qwen-VL-Plus may not understand the prompt for answering True or False questions.
+        It might be a free lunch for Qwen-VL-Plus to improve its performance on CMMMU.
+        We further point out that the disparity between Yi-VL Series, Qwen-VL-Plus, and GPT-4V is mainly because of their capacity difference for answering Multiple-choice questions.
       </p>
     </div>
     <div class="content has-text-centered">
@@ -871,11 +870,9 @@
     <h2 class="title is-3">Different Difficulty Levels</h2>
     <div class="content has-text-justified">
       <p>
-        we compares the performance of selected models across three difficulty levels.  
-        GPT-4V demonstrates a significantly higher proficiency, with a success rate of 76.1%, compared to opensource models in the “Easy” category.  
-        When it comes to the “Medium” category, while the gap narrows, GPT-4V still leads at 55.6%.  
-        The further diminishing performance gap in the “Hard” category across models indicates that as the complexity of tasks increases, the advantage of more advanced models like GPT-4V almost disappears.  
-        This might reflect a current limitation in handling expert-level challenging queries even for the most advanced models.
+        We conduct result decomposition across question difficulties, as shown in table below.
+        Notably, there is a larger gap between the best open-source LMM, i.e. Yi-VL-34B, and GPT-4V when facing the medium and hard questions.
+        It is another strong evidence of the observation that the key disparity between Open-source LMMs and GPT-4V is the capacity to calculate and reason given complex conditions.
       </p>
     </div>
     <div class="content has-text-centered">
@@ -891,11 +888,9 @@
         <h2 class="title is-3">Error Analysis</h2>
         <div class="content has-text-justified">
           <p>
-            We delve into the analysis of errors by GPT-4V, a pivotal aspect for understanding its operational capabilities and limitations. 
-            This analysis serves not only to identify the model's current shortcomings but also to guide future enhancements in its design and training. 
-            We meticulously examine 150 randomly sampled error instances from GPT-4V's predictions. 
-            These instances are analyzed by expert annotators who identify the root causes of mispredictions based on their knowledge and the golden explanations if available. 
-            The distribution of these errors is illustrated in Figure, and a selection of 100 notable cases, along with detailed analyses, is included in the Appendix.
+            We conduct a thorough investigation into the shortcomings of GPT-4V through a critical evaluation of its performance.
+            Our focus is on a set of 150 errors randomly selected from the model's outputs, scrutinized by a team of skilled annotators.
+            These experts have dissected each instance, identifying the underlying reasons for the inaccuracies, relying on their expertise and available reference explanations.
           </p>
         </div>
         <!-- <div class="content has-text-centered">
@@ -991,11 +986,11 @@
               <img src="c_static/images/error/False13.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
-          <!-- <div class="box m-5">
+          <div class="box m-5">
             <div class="content has-text-centered">
               <img src="c_static/images/error/False14.png" alt="grade-lv" width="60%"/>
             </div>
-          </div> -->
+          </div>
           <div class="box m-5">
             <div class="content has-text-centered">
               <img src="c_static/images/error/False15.png" alt="grade-lv" width="60%"/>
