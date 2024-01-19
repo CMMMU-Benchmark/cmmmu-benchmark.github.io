@@ -439,7 +439,7 @@
             </p>
           </div>
 
-          <button id="toggleButton" onclick="changeButtonText()"><b style='font-size: larger;'>Test Set Leaderboard</b> (Click to Switch)</button>
+          <button id="toggleButton" onclick="changeButtonText()"><b style='font-size: larger;'>Test Set Leaderboard</b></button>
           <div class="model-labels-container">
             <!-- <span class="leaderboard-label" style="background-color: #f8fffe;">Open-Source</span>
             <span class="leaderboard-label" style="background-color: #f9f2f8;">Closed</span> -->
@@ -841,529 +841,14 @@
             </tr> -->
           </table>
 
-          <table id="table2" class="js-sort-table hidden">
-            <tr>
-              <td class="js-sort-number"><strong>Reset</strong></td>
-              <td class="js-sort-number"><strong>Overall</strong></td>
-              <td class="js-sort-number"><strong>Art & Design</strong></td>
-              <td class="js-sort-number"><strong>Business</strong></td>
-              <td class="js-sort-number"><strong>Science</strong></td>
-              <td class="js-sort-number"><strong>Health & Medicine</strong></td>
-              <td class="js-sort-number"><strong>Human. & Social Sci.</strong></td>
-              <td class="js-sort-number"><strong>Tech & Eng.</strong></td>
-            </tr>
-            <!-- <tr style="background-color: #f8fffe;"> -->
-              <tr style="background-color: rgba(117, 209, 215, 0.1);">
-              <td style="text-align: left;">
-                <a href="https://deepmind.google/technologies/gemini/#introduction">
-                    <b>Gemini Ultra*</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Gemini Ultra*</b></td> -->
-              <td><b>59.4</b></td>
-              <td><b>70.0</b></td>
-              <td style="text-decoration: underline;">56.7</td>
-              <td style="text-decoration: underline;">48.0</td>
-              <td><b>67.3</b></td>
-              <td><b>78.3</b></td>
-              <td><b>47.1</b></td>
-            </tr>
-            <!-- <tr style="background-color: #f8fffe;"> -->
-              <tr style="background-color: rgba(117, 209, 215, 0.1);">
-              <td style="text-align: left;">
-                <a href="https://openai.com/contributions/gpt-4v">
-                    <b>GPT-4V(ision) (Playground)</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>GPT-4V(ision) (Playground)</b></td> -->
-              <td style="text-decoration: underline;">56.8</td>
-              <td style="text-decoration: underline;">65.8</td>
-              <td><b>59.3</b></td>
-              <td><b>54.7</b></td>
-              <td style="text-decoration: underline;">64.7</td>
-              <td style="text-decoration: underline;">72.5</td>
-              <td>36.7</td>
-            </tr>
-            <!-- <tr style="background-color: #f8fffe;"> -->
-              <tr style="background-color: rgba(117, 209, 215, 0.1);">
-              <td style="text-align: left;">
-                <a href="https://deepmind.google/technologies/gemini/#introduction">
-                    <b>Gemini Pro*</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Gemini Pro*</b></td> -->
-              <td>47.9</td>
-              <td><b>-</b></td>
-              <td>-</td>
-              <td>-</td>
-              <td><b>-</b></td>
-              <td><b>-</b></td>
-              <td><b>-</b></td>
-            </tr>
-            <tr style="background-color: rgba(249, 242, 248, 1);">
-              <td style="text-align: left;">
-                <!-- <a href=""> -->
-                    <b>Yi-VL-34B*</b>
-                <!-- </a> -->
-              </td>
-              <!-- <td style="text-align: left;"><b>Qwen-VL-PLUS*</b></td> -->
-              <td>45.9</td>
-              <td>59.2</td>
-              <td>36.0</td>
-              <td>33.3</td>
-              <td>51.3</td>
-              <td>62.5</td>
-              <td style="text-decoration: underline;">41.0</td>
-            </tr>
-            <!-- <tr style="background-color: #f9f2f8;"> -->
-              <tr style="background-color: rgba(117, 209, 215, 0.1);">
-              <td style="text-align: left;">
-                <a href="https://github.com/QwenLM/Qwen-VL?tab=readme-ov-file#qwen-vl-plus">
-                    <b>Qwen-VL-PLUS*</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Qwen-VL-PLUS*</b></td> -->
-              <td>45.2</td>
-              <td>60.0</td>
-              <td>35.3</td>
-              <td>37.3</td>
-              <td>46.7</td>
-              <td>65.8</td>
-              <td>36.7</td>
-            </tr>
-            <tr style="background-color: rgba(249, 242, 248, 1);">
-              <td style="text-align: left;">
-                <!-- <a href=""> -->
-                    <b>Marco-VL*</b>
-                <!-- </a> -->
-              </td>
-              <td>41.2</td>
-              <td>57.5</td>
-              <td>30.0</td>
-              <td>28.0</td>
-              <td>45.3</td>
-              <td>65.8</td>
-              <td>32.4</td>
-            </tr>
-            <tr style="background-color: rgba(249, 242, 248, 1);">
-              <td style="text-align: left;">
-                 <a href="https://huggingface.co/Infi-MM/infimm-zephyr">
-                    <b>InfiMM-Zephyr-7B*</b>
-                 </a>
-              </td>
-              <td>39.4</td>
-              <td>55.8</td>
-              <td>28.0</td>
-              <td>33.3</td>
-              <td>42.7</td>
-              <td>59.2</td>
-              <td>29.0</td>
-            </tr>
-            <tr style="background-color: rgba(249, 242, 248, 1);">
-              <td style="text-align: left;">
-                <!-- <a href=""> -->
-                    <b>Yi-VL-6B*</b>
-                <!-- </a> -->
-              </td>
-              <!-- <td style="text-align: left;"><b>Qwen-VL-PLUS*</b></td> -->
-              <td>39.1</td>
-              <td>52.5</td>
-              <td>30.7</td>
-              <td>31.3</td>
-              <td>38.0</td>
-              <td>53.3</td>
-              <td>35.7</td>
-            </tr>
-            <tr style="background-color: rgba(249, 242, 248, 1);">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2307.04087">
-                    <b>SVIT*</b>
-                </a>
-              </td>
-              <td>38.0</td>
-              <td>52.5</td>
-              <td>27.3</td>
-              <td>28.0</td>
-              <td>42.0</td>
-              <td>51.7</td>
-              <td>33.8</td>
-            </tr>
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://llava-vl.github.io/">
-                    <b>LLaVA-1.5-13B</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>LLaVA-1.5-13B</b></td> -->
-              <td>36.4</td>
-              <td>51.7</td>
-              <td>22.7</td>
-              <td>29.3</td>
-              <td>38.7</td>
-              <td>53.3</td>
-              <td>31.4</td>
-            </tr> 
-            <tr style="background-color: rgba(249, 242, 248, 1);">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2312.13286">
-                    <b>Emu2-Chat*</b>
-                </a>
-              </td>
-              <td>36.3</td>
-              <td>55.0</td>
-              <td>30.0</td>
-              <td>28.7</td>
-              <td>28.7</td>
-              <td>46.7</td>
-              <td>35.2</td>
-            </tr>
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2308.12966">
-                    <b>Qwen-VL-7B-Chat</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Qwen-VL-7B</b></td> -->
-              <td>35.9</td>
-              <td>51.7</td>
-              <td>29.3</td>
-              <td>29.3</td>
-              <td>33.3</td>
-              <td>45.0</td>
-              <td>32.9</td>
-            </tr>  
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2305.06500">
-                    <b>InstructBLIP-T5-XXL</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>InstructBLIP-T5-XXL</b></td> -->
-              <td>35.7</td>
-              <td>44.2</td>
-              <td>24.0</td>
-              <td>30.7</td>
-              <td>35.3</td>
-              <td>49.2</td>
-              <td>35.2</td>
-            </tr>            
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2301.12597">
-                    <b>BLIP-2 FLAN-T5-XXL</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>BLIP-2 FLAN-T5-XXL</b></td> -->
-              <td>35.4</td>
-              <td>41.7</td>
-              <td>30.0</td>
-              <td>34.7</td>
-              <td>32.0</td>
-              <td>50.8</td>
-              <td>30.0</td>
-            </tr>
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2301.12597">
-                    <b>BLIP-2 FLAN-T5-XL</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>BLIP-2 FLAN-T5-XL</b></td> -->
-              <td>34.4</td>
-              <td>44.2</td>
-              <td>26.7</td>
-              <td>30.7</td>
-              <td>35.3</td>
-              <td>50.0</td>
-              <td>27.6</td>
-            </tr>   
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2305.06500">
-                    <b>InstructBLIP-T5-XL</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>InstructBLIP-T5-XL</b></td> -->
-              <td>32.9</td>
-              <td>40.0</td>
-              <td>28.0</td>
-              <td>32.7</td>
-              <td>28.7</td>
-              <td>47.5</td>
-              <td>27.1</td>
-            </tr>
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2311.07575">
-                    <b>SPHINX*</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>SPHINX*</b></td> -->
-              <td>32.9</td>
-              <td>48.3</td>
-              <td>24.7</td>
-              <td>26.7</td>
-              <td>30.7</td>
-              <td>50.0</td>
-              <td>26.2</td>
-            </tr>   
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2311.04257">
-                    <b>mPLUG-OWL2*</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>mPLUG-OWL2*</b></td> -->
-              <td>32.7</td>
-              <td>45.8</td>
-              <td>24.7</td>
-              <td>22.7</td>
-              <td>32.0</td>
-              <td>45.8</td>
-              <td>31.0</td>
-            </tr> 
-            <!-- <tr style="background-color: #f8fffe;"> -->
-              <tr style="background-color: rgba(117, 209, 215, 0.1);">
-              <td style="text-align: left;">
-                <a href="https://deepmind.google/technologies/gemini/#introduction">
-                    <b>Gemini Nano2*</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Gemini Nano2*</b></td> -->
-              <td>32.6</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td></td>
-            </tr>
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2305.03726">
-                    <b>Otter</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Otter</b></td> -->
-              <td>32.2</td>
-              <td>37.5</td>
-              <td>24.0</td>
-              <td>34.7</td>
-              <td>30.7</td>
-              <td>41.7</td>
-              <td>29.0</td>
-            </tr>          
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2311.03079">
-                    <b>CogVLM</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>CogVLM</b></td> -->
-              <td>32.1</td>
-              <td>40.8</td>
-              <td>25.3</td>
-              <td>28.0</td>
-              <td>32.0</td>
-              <td>45.0</td>
-              <td>27.6</td>
-            </tr>          
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2304.15010">
-                    <b>LLaMA-Adapter2-7B</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>LLaMA-Adapter2-7B</b></td> -->
-              <td>29.8</td> 
-              <td>29.2</td>
-              <td>25.3</td> 
-              <td>30.7</td> 
-              <td>30.7</td> 
-              <td>33.3</td> 
-              <td>30.0</td> 
-            </tr>   
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2308.01390">
-                    <b>OpenFlamingo2-9B</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>OpenFlamingo2-9B</b></td> -->
-              <td>28.7</td>
-              <td>40.0</td>
-              <td>28.0</td>
-              <td>23.3</td>
-              <td>27.3</td>
-              <td>30.8</td>
-              <td>26.2</td>
-            </tr>    
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://www.adept.ai/blog/fuyu-8b">
-                    <b>Fuyu-8B</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Fuyu-8B</b></td> -->
-              <td>27.9</td>
-              <td>36.7</td>
-              <td>32.0</td>
-              <td>22.0</td>
-              <td>28.0</td>
-              <td>32.5</td>
-              <td>21.4</td>
-           </tr>    
-           <tr style="background-color: #f9f2f8;">
-            <td style="text-align: left;">
-              <a href="https://minigpt-4.github.io/">
-                  <b>MiniGPT4-Vicuna-13B</b>
-              </a>
-            </td>
-              <!-- <td style="text-align: left;"><b>MiniGPT4-Vicuna-13B</b></td> -->
-              <td>26.8</td>
-              <td>29.2</td>
-              <td>21.3</td>
-              <td>28.7</td>
-              <td>30.7</td>
-              <td>29.2</td>
-              <td>23.8</td>
-            </tr>
-            <tr style="background-color: #f4f9fe;">
-              <td style="color: #808080;text-align: left;">Frequent Choice</td>
-              <td style="color: #808080;">26.8</td>
-              <td style="color: #808080;">23.3</td>
-              <td style="color: #808080;">29.3</td>
-              <td style="color: #808080;">27.3</td>
-              <td style="color: #808080;">30.0</td>
-              <td style="color: #808080;">25.8</td>
-              <td style="color: #808080;">24.8</td>
-            </tr>   
-            <tr style="background-color: #f9f2f8;">
-              <td style="text-align: left;">
-                <a href="https://arxiv.org/abs/2306.14824">
-                    <b>Kosmos2</b>
-                </a>
-              </td>
-              <!-- <td style="text-align: left;"><b>Kosmos2</b></td> -->
-              <td>24.4</td>
-              <td>25.0</td>
-              <td>18.0</td>
-              <td>19.3</td>
-              <td>28.0</td>
-              <td>30.0</td>
-              <td>26.7</td>
-            </tr>            
-            <tr style="background-color: #f4f9fe;">
-              <td style="color: #808080;text-align: left;">Random Choice</td>
-              <td style="color: #808080;">22.1</td>
-              <td style="color: #808080;">29.2</td>
-              <td style="color: #808080;">24.7</td>
-              <td style="color: #808080;">18.0</td>
-              <td style="color: #808080;">20.7</td>
-              <td style="color: #808080;">20.0</td>
-              <td style="color: #808080;">21.4</td>
-            </tr>          
-                                 
-            <!-- <tr>
-              <td colspan="8" style="font-size: 18px;"><b>Large Language Models (LLMs): Only Text as Input</b></td>
-            </tr>               -->
-            <!-- <tr style="background-color: #f8fffe;">
-              <td style="text-align: left;"><b>Llama2 7B</b></td>
-              <td>30.1</td>
-              <td>29.2</td>
-              <td>22.7</td>
-              <td>34.0</td>
-              <td>26.7</td>
-              <td>37.5</td>
-              <td>31.4</td>
-            </tr>
-          
-            <tr style="background-color: #f4fdf5;">
-              <td style="text-align: left;"><b>FLAN-T5-XXL</b></td>
-              <td>32.1</td>
-              <td>38.3</td>
-              <td>28.0</td>
-              <td>28.0</td>
-              <td>32.0</td>
-              <td>42.5</td>
-              <td>28.6</td>
-            </tr>            
-            <tr style="background-color: #f4fdf5;">
-              <td style="text-align: left;"><b>FLAN-T5-XXL + OCR</b></td>
-              <td>34.7</td>
-              <td>37.5</td>
-              <td>29.3</td>
-              <td>30.0</td>
-              <td><b>32.7</b></td>
-              <td><b>55.0</b></td>
-              <td><b>30.0</b></td>
-            </tr>
-          
-            <tr style="background-color: #f4fdf5;">
-              <td style="text-align: left;"><b>FLAN-T5-XXL + LLaVA Caption</b></td>
-              <td><b>34.8</b></td>
-              <td><b>43.3</b></td>
-              <td><b>31.3</b></td>
-              <td><b>32.7</b></td>
-              <td>32.0</td>
-              <td>49.2</td>
-              <td>27.6</td>
-            </tr>
-          
-            <tr style="background-color: #e7fde9;">
-              <td style="text-align: left;"><b>Vicuna-13B</b></td>
-              <td>33.3</td>
-              <td><b>41.7</b></td>
-              <td>26.7</td>
-              <td>23.3</td>
-              <td>31.3</td>
-              <td>45.8</td>
-              <td><b>34.8</b></td>
-            </tr>
-          
-            <tr style="background-color: #e7fde9;">
-              <td style="text-align: left;"><b>Vicuna-13B + OCR</b></td>
-              <td><b>35.4</b></td>
-              <td>39.2</td>
-              <td><b>31.3</b></td>
-              <td><b>30.0</b></td>
-              <td>31.3</td>
-              <td><b>50.0</b></td>
-              <td><b>34.8</b></td>
-            </tr>
-          
-            <tr style="background-color: #e7fde9;">
-              <td style="text-align: left;"><b>Vicuna-13B + LLaVA Caption</b></td>
-              <td>33.9</td>
-              <td>38.3</td>
-              <td>26.0</td>
-              <td>28.7</td>
-              <td><b>34.0</b></td>
-              <td>48.3</td>
-              <td>32.4</td>
-            </tr> -->
-          
-
-            <!-- <tr style="background-color: #f8fffe;">
-              <td style="text-align: left;"><b>GPT-4 Text</b></td>
-              <td>34.9</td>
-              <td>35.0</td>
-              <td>36.7</td>
-              <td>34.7</td>
-              <td>40.7</td>
-              <td>51.7</td>
-              <td>20.0</td>
-            </tr>           -->
-          </table>
-
             <p> Overall results of different models on the MMMU test set. The best-performing model in each category is <b>in-bold</b>, and the second best is <u>underlined</u>. *: results provided by the authors.</p> 
         </div>
       </div>
     </div>
-<!-------------------------------------------------------------------- Image Type SECTION -------------------------------------------------------------------->
+<!-------------------------------------------------------------------- question type -------------------------------------------------------------------->
 <div class="columns is-centered m-6">
   <div class="column is-full has-text-centered content">
-    <h2 class="title is-3">Different Image Types</h2>
+    <h2 class="title is-3">Different Question Type</h2>
     <div class="content has-text-justified">
       <p>
         We compare the performance of various models across top frequent image types. 
@@ -1373,170 +858,10 @@
         This indicates that the existing models are generalizing poorly towards these image types.
       </p>
     </div>
-    <div class="model-labels-container">
-      <span class="model-label" style="background-color: rgba(196, 123, 160, 0.5);">Fuyu-8B</span>
-      <span class="model-label" style="background-color: rgba(245, 123, 113, 0.5);">Qwen-VL-7B</span>
-      <span class="model-label" style="background-color: rgba(255, 208, 80, 0.5);">LLaVA-1.5-13B</span>
-      <span class="model-label" style="background-color: rgba(110, 194, 134, 0.5);">InstructBLIP-T5-XXL</span>
-      <span class="model-label" style="background-color: rgba(255, 153, 78, 0.5);">BLIP-2 FLAN-T5-XXL</span>
-      <span class="model-label" style="background-color: rgba(117, 209, 215, 0.5);">GPT-4V</span>
-    </div>
     <div class="content has-text-centered">
-      <div class="chart-grid">
-        <!-- Chart 1: Diagrams -->
-        <div class="chart-item">
-            <canvas id="chart_Diagrams"></canvas>
-            <p class="chart-label">Diagrams (3184)</p>
-        </div>
-    
-        <!-- Chart 2: Tables -->
-        <div class="chart-item">
-            <canvas id="chart_Tables"></canvas>
-            <p class="chart-label">Tables (2267)</p>
-        </div>
-        <!-- Chart 3: Plots and Charts -->
-        <div class="chart-item">
-          <canvas id="chart_PlotsAndCharts"></canvas>
-          <p class="chart-label">Plots and Charts (840)</p>
-        </div>
-        <!-- Chart 4: Chemical Structures -->
-        <div class="chart-item">
-          <canvas id="chart_ChemicalStructures"></canvas>
-          <p class="chart-label">Chemical Structures (573)</p>
-        </div>
-        <!-- Chart 5: Photographs -->
-        <div class="chart-item">
-          <canvas id="chart_Photographs"></canvas>
-          <p class="chart-label">Photographs (770)</p>
-        </div>
-        <!-- Chart 6: Paintings -->
-        <div class="chart-item">
-          <canvas id="chart_Paintings"></canvas>
-          <p class="chart-label">Paintings (453)</p>
-        </div>
-        <!-- Chart 7: Geometric Shapes -->
-        <div class="chart-item">
-          <canvas id="chart_GeometricShapes"></canvas>
-          <p class="chart-label">Geometric Shapes (336)</p>
-        </div>
-        <!-- Chart 8: Sheet Music -->
-        <div class="chart-item">
-          <canvas id="chart_SheetMusic"></canvas>
-          <p class="chart-label">Sheet Music (335)</p>
-        </div>
-        <!-- Chart 9: Medical Images -->
-        <div class="chart-item">
-          <canvas id="chart_MedicalImages"></canvas>
-          <p class="chart-label">Medical Images (272)</p>
-        </div>
-        <!-- Chart 10: Pathological Images -->
-        <div class="chart-item">
-          <canvas id="chart_PathologicalImages"></canvas>
-          <p class="chart-label">Pathological Images (253)</p>
-        </div>
-        <!-- Chart 11: Microscopic Images -->
-        <div class="chart-item">
-          <canvas id="chart_MicroscopicImages"></canvas>
-          <p class="chart-label">Microscopic Images (226)</p>
-        </div>
-        <!-- Chart 12: MRI, CT scans, and X-rays -->
-        <div class="chart-item">
-          <canvas id="chart_MRIsCTScansXrays"></canvas>
-          <p class="chart-label">MRI, CT scans, and X-rays (198)</p>
-        </div>
-        <!-- Chart 13: Sketches and Drafts -->
-        <div class="chart-item">
-          <canvas id="chart_SketchesAndDrafts"></canvas>
-          <p class="chart-label">Sketches and Drafts (184)</p>
-        </div>
-        <!-- Chart 14: Maps -->
-        <div class="chart-item">
-          <canvas id="chart_Maps"></canvas>
-          <p class="chart-label">Maps (170)</p>
-        </div>
-        <!-- Chart 15: Technical Blueprints -->
-        <div class="chart-item">
-          <canvas id="chart_TechnicalBlueprints"></canvas>
-          <p class="chart-label">Technical Blueprints (162)</p>
-        </div>
-        <!-- Chart 16: Trees and Graphs -->
-        <div class="chart-item">
-          <canvas id="chart_TreesAndGraphs"></canvas>
-          <p class="chart-label">Trees and Graphs (146)</p>
-        </div>
-        <!-- Chart 17: Mathematical Notations -->
-        <div class="chart-item">
-          <canvas id="chart_MathematicalNotations"></canvas>
-          <p class="chart-label">Mathematical Notations (133)</p>
-        </div>
-        <!-- Chart 18: Comics and Cartoons -->
-        <div class="chart-item">
-          <canvas id="chart_ComicsAndCartoons"></canvas>
-          <p class="chart-label">Comics and Cartoons (131)</p>
-        </div>
-        <!-- Chart 19: Sculpture -->
-        <div class="chart-item">
-          <canvas id="chart_Sculpture"></canvas>
-          <p class="chart-label">Sculpture (117)</p>
-        </div>
-        <!-- Chart 20: Portraits -->
-        <div class="chart-item">
-          <canvas id="chart_Portraits"></canvas>
-          <p class="chart-label">Portraits (91)</p>
-        </div>
-        <!-- Chart 21: Screenshots -->
-        <div class="chart-item">
-          <canvas id="chart_Screenshots"></canvas>
-          <p class="chart-label">Screenshots (70)</p>
-        </div>
-        <!-- Chart 22: Other -->
-        <div class="chart-item">
-          <canvas id="chart_Other"></canvas>
-          <p class="chart-label">Other(60)</p>
-        </div>
-        <!-- Chart 23: Poster -->
-        <div class="chart-item">
-          <canvas id="chart_Poster"></canvas>
-          <p class="chart-label">Poster(57)</p>
-        </div>
-        <!-- Chart 24: Icons and Symbols -->
-        <div class="chart-item">
-          <canvas id="chart_IconsAndSymbols"></canvas>
-          <p class="chart-label">Icons and Symbols (42)</p>
-        </div>
-        <!-- Chart 25: Historical Timelines -->
-        <div class="chart-item">
-          <canvas id="chart_HistoricalTimelines"></canvas>
-          <p class="chart-label">Historical Timelines (30)</p>
-        </div>
-        <!-- Chart 26: 3D Renderings -->
-        <div class="chart-item">
-          <canvas id="chart_3DRenderings"></canvas>
-          <p class="chart-label">3D Renderings (21)</p>
-        </div>
-        <!-- Chart 27: DNA Sequences -->
-        <div class="chart-item">
-          <canvas id="chart_DNASequences"></canvas>
-          <p class="chart-label">DNA Sequences (20)</p>
-        </div>
-        <!-- Chart 28: Landscapes -->
-        <div class="chart-item">
-          <canvas id="chart_Landscapes"></canvas>
-          <p class="chart-label">Landscapes (16)</p>
-        </div>
-        <!-- Chart 29: Logos and Branding -->
-        <div class="chart-item">
-          <canvas id="chart_LogosAndBranding"></canvas>
-          <p class="chart-label">Logos and Branding(14)</p>
-        </div>
-        <!-- Chart 30: Advertisements -->
-        <div class="chart-item">
-          <canvas id="chart_Advertisements"></canvas>
-          <p class="chart-label">Advertisements (10)</p>
-        </div>
-      </div>
-      <p class="bottom-text"> Selected models' performance on 30 different image types. Note that a single image may have multiple image types.</p>
-    </div>
+      <img src="c_static/images/table4.jpg" width="75%">
+      <p>Result decomposition across question type.</p>
+    </div> 
 
   </div>
 </div>
@@ -1554,9 +879,9 @@
       </p>
     </div>
     <div class="content has-text-centered">
-      <canvas id="difficulty_level_chart"></canvas>
-      <p>Result decomposition across question difficulty levels.</p>
-  </div>      
+      <img src="c_static/images/table5.jpg" width="75%">
+      <p> Result decomposition across question difficulty levels. <b>bold results</b> in LMMs indicate the best results for all models, and the <b>blue results</b> indicate the best results among the open-source models.</p>
+    </div>   
 
   </div>
 </div>
@@ -1573,10 +898,11 @@
             The distribution of these errors is illustrated in Figure, and a selection of 100 notable cases, along with detailed analyses, is included in the Appendix.
           </p>
         </div>
-        <div class="content has-text-centered">
+        <!-- <div class="content has-text-centered">
           <img src="static/images/error_distribution_1.Jpeg" alt="error distribution" width="25%">
           <p> Error distribution over 150 annotated GPT-4V errors.</p>
-        </div>
+        </div> -->
+
         <!-- <div id="results-carousel" class="carousel results-carousel">
           <div class="box m-5">
             <div class="content has-text-centered">
@@ -1602,252 +928,707 @@
         <div id="results-carousel" class="carousel results-carousel">
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/1.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False1.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/2.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False2.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/3.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False3.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/4.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False4.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/5.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False5.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/6.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False6.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/7.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False7.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/8.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False8.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/9.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False9.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/10.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False10.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/11.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False11.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/12.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False12.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/13.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False13.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <!-- <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/14.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False14.png" alt="grade-lv" width="60%"/>
             </div>
           </div> -->
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/15.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False15.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/16.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False16.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/17.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False17.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/18.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False18.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/19.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False19.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/20.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False20.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/21.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False21.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/22.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False22.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/23.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False23.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/24.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False24.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/25.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False25.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/26.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False26.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/27.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False27.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/28.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False28.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/29.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False29.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/30.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False30.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/31.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False31.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/32.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False32.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/33.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False33.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/34.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False34.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/35.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False35.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/36.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False36.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/37.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False37.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/38.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False38.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/39.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False39.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/40.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False40.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/41.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False41.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/42.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False42.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/43.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False43.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/44.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False44.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/45.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False45.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/46.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False46.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/47.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False47.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/48.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False48.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/49.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False49.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/error/50.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/error/False50.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False51.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False52.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False53.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False54.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False55.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False56.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False57.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False58.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False59.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False60.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False61.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False62.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False63.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False64.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False65.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False66.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False67.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False/68.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False69.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False70.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False71.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False72.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False73.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False74.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False75.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False76.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False77.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False78.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False79.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False80.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False81.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False82.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False83.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False84.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False85.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False86.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False87.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False88.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False89.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False90.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False91.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False92.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False93.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False94.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False95.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False96.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False97.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False98.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False99.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False100.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False101.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False102.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False103.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False104.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False105.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False106.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False107.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False108.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False109.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False110.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False111.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False112.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False113.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False114.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False115.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False116.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False117.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False118.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False119.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False120.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False121.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False122.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False123.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False124.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False125.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False126.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False127.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False128.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False129.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False130.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False131.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False132.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False133.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False134.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False135.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False136.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False137.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False138.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False139.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False140.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/error/False141.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
         </div>
@@ -1861,192 +1642,327 @@
         <div id="results-carousel" class="carousel results-carousel">
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/1.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True1.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/2.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True2.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/3.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True3.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/4.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True4.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/5.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True5.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/6.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True6.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/7.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True7.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/8.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True8.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/9.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True9.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/10.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True10.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/11.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True11.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/12.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True12.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/13.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True13.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/14.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True14.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/15.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True15.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/16.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True16.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/17.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True17.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/18.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True18.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/19.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True19.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/20.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True20.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/21.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True21.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/22.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True22.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/23.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True23.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/24.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True24.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/25.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True25.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/26.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True26.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/27.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True27.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/28.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True28.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/29.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True29.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/30.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True30.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/31.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True31.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/32.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True32.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/33.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True33.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/34.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True34.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/35.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True35.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/36.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True36.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/37.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True37.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/correct/38.png" alt="grade-lv" width="60%"/>
+              <img src="c_static/images/correct/True38.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True39.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True40.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True41.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True42.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True43.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True44.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True45.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True46.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True47.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True48.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True49.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True50.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True51.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True52.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True53.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True54.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True55.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True56.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True57.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True58.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True59.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True60.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True61.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True62.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True63.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True64.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="c_static/images/correct/True65.png" alt="grade-lv" width="60%"/>
             </div>
           </div>
         </div>
@@ -2094,14 +2010,14 @@
 </footer>
 
 <script>
-  function changeButtonText() {
-    var button = document.getElementById('toggleButton');
-    if (button.innerHTML.includes("Test Set Leaderboard")) {
-      button.innerHTML = "<b style='font-size: larger;'>Validation Set Leaderboard</b> (Click to Switch)";
-    } else {
-      button.innerHTML = "<b style='font-size: larger;'>Test Set Leaderboard</b> (Click to Switch)";
-    }
-  }
+  // function changeButtonText() {
+  //   var button = document.getElementById('toggleButton');
+  //   if (button.innerHTML.includes("Test Set Leaderboard")) {
+  //     button.innerHTML = "<b style='font-size: larger;'>Validation Set Leaderboard</b> (Click to Switch)";
+  //   } else {
+  //     button.innerHTML = "<b style='font-size: larger;'>Test Set Leaderboard</b> (Click to Switch)";
+  //   }
+  // }
   document.addEventListener('DOMContentLoaded', function() {
     var tables = document.querySelectorAll('table');
     
@@ -2146,12 +2062,12 @@ function sortTable(table, column, type, asc) {
 }
 
   // 切换表格的函数
-  function toggleTables () {
-      var table1 = document.getElementById('table1');
-      var table2 = document.getElementById('table2');
-      table1.classList.toggle('hidden');
-      table2.classList.toggle('hidden');
-  }
+  // function toggleTables () {
+  //     var table1 = document.getElementById('table1');
+  //     var table2 = document.getElementById('table2');
+  //     table1.classList.toggle('hidden');
+  //     table2.classList.toggle('hidden');
+  // }
 
   document.getElementById('toggleButton').addEventListener('click', toggleTables);
   const canvas = document.getElementById('difficulty_level_chart');
